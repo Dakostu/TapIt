@@ -3,7 +3,7 @@
 
 # TapIt
 
-TapIt is a very simple reaction time tester for your Android device. The game greets you with a red screen. It turns green at a random amount of seconds. The goal of TapIt is to tap the green screen as fast as possible.
+TapIt is a very simple reaction time tester for your Android device. The game greets you with a red screen. It turns green after a random amount of seconds. The goal of TapIt is to tap the green screen as fast as possible.
 
 ## How to install TapIt
 
