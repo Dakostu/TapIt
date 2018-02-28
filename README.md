@@ -9,4 +9,8 @@ TapIt is a very simple reaction time tester for your Android device. The game gr
 
 This repository already contains a signed APK in the folder /app/release. Copy it onto your Android device and run the app from there.
 
+Your Android device needs to support the Android version 4.0 API. 
+
+
+
 TapIt uses the GNUGPL V2 license. Feel free to check out and fork the source code at your will.
