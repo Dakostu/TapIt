@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/redPlane"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRedPlane"
+    android:clickable="true"
+    android:onClick="failGame">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/greenPlane"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGreenPlane"
+        android:onClick="winGame"
+        android:visibility="gone">
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/endLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:gravity="center_horizontal"
+            android:text="[ENDTEXT]"
+            android:textColor="@android:color/black"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <TextView
+            android:id="@+id/yourTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:gravity="center_horizontal|center"
+            android:text="@string/yourTime"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="240dp"
+            tools:layout_editor_absoluteY="459dp" />
+
+        <TextView
+            android:id="@+id/timePlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center"
+            android:text="[TIME]"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="265dp"
+            tools:layout_editor_absoluteY="509dp" />
+
+        <TextView
+            android:id="@+id/yourRank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|center"
+            android:text="@string/yourRank"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="240dp"
+            tools:layout_editor_absoluteY="593dp" />
+
+        <TextView
+            android:id="@+id/rankPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center"
+            android:text="[RANK]"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="261dp"
+            tools:layout_editor_absoluteY="652dp" />
+
+        <Button
+            android:id="@+id/restartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:gravity="center_horizontal|center"
+            android:onClick="restartGame"
+            android:text="@string/buttonRestart"
+            android:visibility="gone"
+            tools:layout_editor_absoluteX="256dp"
+            tools:layout_editor_absoluteY="747dp"
+            tools:text="@string/buttonRestart" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

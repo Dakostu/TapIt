@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TapIt</string>
+    <string name="title">Tap It!</string>
+    <string name="desc">This game begins with a red screen.\n
+        Tap the phone display as soon as the screen turns green.\n
+        Be as fast as possible!</string>
+    <string name="buttonStart">Start Game</string>
+    <string name="buttonRestart">Restart Game</string>
+    <string name="yourTime">Your Time:</string>
+    <string name="time">ms</string>
+    <string name="yourRank">Your Rank:</string>
+    <string name="lose">Too early!</string>
+    <string name="win">You did it!</string>
+    <string name="rankBest">NINJA</string>
+    <string name="rankSecondBest">CHEETAH</string>
+    <string name="rankThirdBest">SAMURAI</string>
+    <string name="rankMid1">TRIGGER FINGER</string>
+    <string name="rankMid2">SLOWPOKE</string>
+    <string name="rankMid3">TURTLE</string>
+    <string name="rankMid4">GRANDPA</string>
+    <string name="rankMid5">GRANDMA</string>
+    <string name="rankThirdWorst">HALF-DEAD</string>
+    <string name="rankSecondWorst">DEAD AND DECAYED</string>
+    <string name="rankWorst">FORGOT THE GAME?</string>
+
+</resources>
