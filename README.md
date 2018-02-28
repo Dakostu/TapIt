@@ -1,4 +1,4 @@
-![preview pic](preview.png)
+![preview pic](preview.png | width=100)
 
 
 # TapIt
